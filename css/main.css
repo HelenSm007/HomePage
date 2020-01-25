@@ -1,0 +1,31 @@
+body {
+	font-family: 'Myriad Pro';
+}
+
+/*-----Section header------*/
+.menu {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.header-fon {
+	padding-top: 100px;
+	padding-bottom: 180px;
+	background: url('../img/header-fon.png');
+}
+
+.text-link a{
+	color: #515862;
+	/*font-size: 14px;*/
+}
+
+.text-link a:hover {
+	font-weight: bold;
+	color: white;
+	background: url('../img/br-link.png') no-repeat 0% 100%, 
+		url('../img/br-link-rec.png');
+}
+
+p.margin-0 {
+	margin: 0;
+}
