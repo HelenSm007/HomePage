@@ -3,29 +3,47 @@ body {
 }
 
 /*-----Section header------*/
-.menu {
+/* .menu {
 	padding-top: 15px;
 	padding-bottom: 15px;
+} */
+
+.logo {
+	margin-top: 15px;
 }
 
-.header-fon {
-	padding-top: 100px;
-	padding-bottom: 180px;
-	background: url('../img/header-fon.png');
-}
+
+/* .header-fon {
+	;
+	
+} */
 
 .text-link a{
 	color: #515862;
 	/*font-size: 14px;*/
 }
 
+.link-padding {
+	padding-top: 1.2rem;
+	padding-bottom: 1.2rem;
+}
+
 .text-link a:hover {
 	font-weight: bold;
 	color: white;
 	background: url('../img/br-link.png') no-repeat 0% 100%, 
-		url('../img/br-link-rec.png');
+		url('../img/br-link-rec.png') no-repeat 0% 100%;
 }
 
 p.margin-0 {
 	margin: 0;
+}
+
+/* --- Section-with-fon ------ */
+.section-with-fon {
+	padding-top: 100px;
+	padding-bottom: 180px;
+	background: url('../img/header-fon.png');
+	background-size: cover;
+	height: 490;
 }
