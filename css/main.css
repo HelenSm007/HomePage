@@ -81,6 +81,23 @@ a.button {
   .third-section {
 	color: #515862;
   }
+
+  .third-section a.button {
+	font-size: 20px;
+	color: #fff;
+	line-height: 1;
+	text-align: center;
+	width:180px;
+	height: 35px;
+	text-transform: uppercase;
+	background: #2190c1; 
+    padding: 0.5rem 0.5rem; /* Поля вокруг текста */
+    text-transform: uppercase;
+	text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 10px; /* Скругляем уголки */
+    margin-top: -20px; 
+  }
+
   .icon-img {
 	/* background-image: url("../img/icon_web-design.png"); */
 	width: 118px;
