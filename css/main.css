@@ -47,12 +47,13 @@ p.margin-0 {
 	background-size: cover;
 	color: #cccece;
 	line-height: 1.2;
-	height: 100vh;
+	/* height: 100vh; */
 	/* height: 490; */
 }
 
 .section-with-fon h1 {
 	font-size: 60px;
+	text-align: center;
   }
   
   .section-with-fon__text {
@@ -73,7 +74,7 @@ a.button {
     padding: 0.5rem 2.5rem; /* Поля вокруг текста */
     text-transform: uppercase;
 	text-decoration: none; /* Убираем подчёркивание */
-    border-radius: 10px; /* Скругляем уголки */
+    border-radius: 5px; /* Скругляем уголки */
     margin-top: 25px; 
   }
 
@@ -94,7 +95,7 @@ a.button {
     padding: 0.5rem 0.5rem; /* Поля вокруг текста */
     text-transform: uppercase;
 	text-decoration: none; /* Убираем подчёркивание */
-    border-radius: 10px; /* Скругляем уголки */
+    border-radius: 5px; /* Скругляем уголки */
     margin-top: -20px; 
   }
 
@@ -153,7 +154,7 @@ a.button {
     padding: 0.5rem 0.5rem; /* Поля вокруг текста */
     text-transform: capitalize;
 	text-decoration: none; /* Убираем подчёркивание */
-    border-radius: 10px;
+	border-radius: 5px;
 }
 
 @media screen and (max-width: 1000px){
