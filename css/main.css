@@ -45,5 +45,66 @@ p.margin-0 {
 	padding-bottom: 180px;
 	background: url('../img/header-fon.png');
 	background-size: cover;
-	height: 490;
+	color: #cccece;
+	line-height: 1.2;
+	height: 100vh;
+	/* height: 490; */
 }
+
+.section-with-fon h1 {
+	font-size: 60px;
+  }
+  
+  .section-with-fon__text {
+	font-size: 14px;
+	text-align: center;
+	padding: 10px 100px;
+  }
+  
+a.button {
+	font-size: 20px;
+	color: #ffebca;
+	line-height: 1.5;
+	text-align: center;
+	width: 243px;
+	height: 50px;
+	text-transform: uppercase;
+	background: #f98561; 
+    padding: 0.5rem 2.5rem; /* Поля вокруг текста */
+    text-transform: uppercase;
+	text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 10px; /* Скругляем уголки */
+    margin-top: 25px; 
+  }
+
+  /* ---- Third section ----- */
+  .third-section {
+	color: #515862;
+  }
+  .icon-img {
+	/* background-image: url("../img/icon_web-design.png"); */
+	width: 118px;
+	height: 118px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 47px;
+	margin-bottom: 27px;
+  }
+  
+  .third-section__subtitle {
+	
+  	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+
+  }
+  .third-section__text {
+	font-size: 11px;
+	padding: 0 20px;
+	text-align: center;
+
+  }
+  
+  .third-section__text a {
+	text-decoration: none;
+  }
