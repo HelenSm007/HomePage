@@ -233,6 +233,22 @@ a.button {
 	font-size: 25px;
 	line-height: 1.44;
   }
+
+  .testimonials-humans-text {
+	color: #f98561;
+	font-size: 14px;
+	margin-top: 60px;
+	margin-bottom: 29px;
+  }
+
+  .testimonials-img {
+	width: 70px;
+	height: 70px;
+  }
+
+
+
+
 /*------ Adaptiv -------*/
 @media screen and (max-width: 1000px){
 
