@@ -1,5 +1,9 @@
 body {
-	font-family: 'Myriad Pro';
+	font-family: 'Myriad Pro', Arial;
+}
+
+.section_light {
+	background-color: #f4f4f4;
 }
 
 /*-----Section header------*/
@@ -78,8 +82,8 @@ a.button {
     margin-top: 25px; 
   }
 
-  /* ---- Third section ----- */
-  .third-section {
+  /* ---- Services section ----- */
+.third-section {
 	color: #515862;
   }
 
@@ -182,7 +186,57 @@ a.button {
 	font-size: 11px;
 	margin-bottom: 75px;
 }
+
+/* -----  Offer Section ----- */
+.caption-color {
+	color: #2190c1; /* h*/
+}
+
+.text-color {
+	color: #515862; /* p */
+}
+
+.offer-h1 {
+	margin-top: 40px;
+	font-size: 40px;
+
+}
+
+.offer-text {
+	font-size: 12px;
+	margin-bottom: 40px;
+}
+
+.offer-col-h3 {
+	font-size: 17px;
+}
+
+.offer-col-p {
+	font-size: 11px;
+	text-align: justify;
+}
+
+.details {
+	font-size: 14px;
+}
+
+.offer-hr {
+	margin: 30px 0 40px 0;
+}
+
+.testimonials-h2 {
+	font-size: 27px;
+	margin-bottom: 35px;
+}
+
+.testimonials-text {
+	font-size: 25px;
+	line-height: 1.44;
+  }
 /*------ Adaptiv -------*/
 @media screen and (max-width: 1000px){
 
 }
+/*---------------*/
+
+  
