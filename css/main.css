@@ -136,9 +136,10 @@ a.button {
 	padding-top: 55px;
 	/* display: flex; */
 	align-items: center;
+	margin-bottom: 70px;
 }
 
-.portfolio-section__text {
+.portfolio-section__h2 {
 	color: #f98561;
 	font-size: 30px;
 }
@@ -157,6 +158,31 @@ a.button {
 	border-radius: 5px;
 }
 
+.portfolio-section__img {
+	background: url('../img/icon_camera.png');
+	background-size: cover;
+	border: 10px solid white;
+	width: 260px;
+	height: 200px;
+}
+
+.portfolio-section__img_video{
+	background: url('../img/icon_video.png');
+	background-size: cover;
+}
+
+.portfolio-section__h3 {
+	color: #f98561;
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+.portfolio-section__text {
+	color: #bcbcbc;
+	font-size: 11px;
+	margin-bottom: 75px;
+}
+/*------ Adaptiv -------*/
 @media screen and (max-width: 1000px){
 
 }
