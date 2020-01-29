@@ -253,7 +253,7 @@ a.button {
 
 .footer-caption-text {
 	color: #f98561;
-	font-size: 24px;
+	font-size: 22px;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 43px 0px 27px 15px;
@@ -273,6 +273,19 @@ a.button {
 	border: 0.5px solid #a3afb2;
 	width: 100%;
 	margin: 14px 15px 14px 15px;
+}
+
+.square {
+	width: 55px;
+	height: 55px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.footer-contact-text {
+	color: #a3afb2;
+	font-size: 12px;
+	margin-bottom: 4px;
 }
 /*------ Adaptiv -------*/
 @media screen and (max-width: 1000px){
