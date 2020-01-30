@@ -164,14 +164,14 @@ a.button {
 
 .portfolio-section__img {
 	background: url('../img/icon_camera.png');
-	background-size: cover;
+	background-size: contain;
 	border: 10px solid white;
 	width: 260px;
 	height: 200px;
 }
 
 .portfolio-section__img_video{
-	background: url('../img/icon_video.png');
+	background: url('../img/icon_video.png') no-repeat;
 	background-size: cover;
 }
 
@@ -263,6 +263,10 @@ a.button {
 	color: #a3afb2;
 	font-size: 12px;
 	margin-bottom: 8px;
+}
+
+.footer-text_height {
+	height: 70px;
 }
 
 .footer-text_blue {
