@@ -251,6 +251,10 @@ a.button {
 	background: #2e3e4f;
 }
 
+.row-indent {
+	margin-bottom: 25px;
+}
+
 .footer-caption-text {
 	color: #f98561;
 	font-size: 22px;
@@ -262,7 +266,7 @@ a.button {
 .footer-text {
 	color: #a3afb2;
 	font-size: 12px;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 }
 
 .footer-text_height {
@@ -276,7 +280,7 @@ a.button {
 .footer-hr {
 	border: 0.5px solid #a3afb2;
 	width: 100%;
-	margin: 14px 15px 14px 15px;
+	margin: 7px 15px 7px 15px;
 }
 
 .square {
@@ -289,7 +293,8 @@ a.button {
 .footer-contact-text {
 	color: #a3afb2;
 	font-size: 12px;
-	margin-bottom: 4px;
+	margin-bottom: 0px;
+    text-indent: 6px;
 }
 /*------ Adaptiv -------*/
 @media screen and (max-width: 1000px){
