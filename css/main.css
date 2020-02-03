@@ -39,10 +39,24 @@ body {
 		url('../img/br-link-rec.png') no-repeat 0% 100%;
 }
 
+#nav-link-btn {
+	color: #fff;
+	/* width: 65px;
+	height: 26px;  */
+	/* text-transform: uppercase; */
+	background: #f98561; 
+    border-radius: 5px; /*Скругляем уголки */
+    /* margin-top: 10px; */
+}
+
 p.margin-0 {
 	margin: 0;
 }
 
+ /* Haburger - menu  */
+.menu__icon, input {
+    display: none; 
+}
 /* --- Section-with-fon ------ */
 .section-with-fon {
 	padding-top: 100px;
@@ -296,10 +310,7 @@ a.button {
 	margin-bottom: 0px;
     text-indent: 6px;
 }
-/*------ Adaptiv -------*/
-@media screen and (max-width: 1000px){
 
-}
 /*---------------*/
 
   
