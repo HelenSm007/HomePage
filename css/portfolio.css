@@ -1,0 +1,14 @@
+.good-projects h1 {
+    /* msargin: 0; */
+    padding: 35px 0;
+    text-transform: uppercase;
+}
+
+.portfolio-hr {
+    margin: 0;
+}
+
+/* .submenu > li ::after{
+    content: '|';
+    margin-right: 10px;
+} */
