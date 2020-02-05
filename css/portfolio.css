@@ -5,10 +5,22 @@
 }
 
 .portfolio-hr {
+   width: 100%;
+    height: 20px;
     margin: 0;
 }
 
-/* .submenu > li ::after{
-    content: '|';
-    margin-right: 10px;
-} */
+.portfolio-hr.bottom {
+    border-bottom: 2px solid #b3d5e4;
+}
+
+.portfolio-hr.top {
+    border-top: 2px solid #b3d5e4;
+}
+.submenu {
+    margin: 10px 20px;   
+} 
+
+.submenu > li {
+    border-right: 2px solid #c3c4c4;
+}
